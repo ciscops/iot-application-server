@@ -1,5 +1,11 @@
 # IoT Application Server
 
+## Objective
+
+Our goal in this lab is to develop an application server that can be used for processing and visualizing IOT data with open source software. The application server can be used with data from any source that supports the ability to output data to an MQTT stream.
+
+![alt text](images/architecture.PNG "Testing Whether Mosquitto is Installed Properly")
+
 ## Getting Started
 
 These instructions will take you through setting up a Node-RED dashboard.
@@ -20,7 +26,7 @@ __You will need:__
 ### Installation
 
 1. [Install](https://nodejs.org/en/download/) the latest LTS version of Node.js
-..a) To verify whether this was installed properly run ```node -v``` and ```npm -v``` (the system should display what node and npm version is installed on your system)
+    a) To verify whether this was installed properly run ```node -v``` and ```npm -v``` (the system should display what node and npm version is installed on your system)
 2. [Install](https://nodered.org/docs/getting-started/local) Node-RED locally with npm
 
 ### Check
@@ -32,10 +38,10 @@ __You will need:__
 
 ### Moquitto Installation
 1. Install Mosquitto
-..a) Use this [link](http://www.steves-internet-guide.com/install-mosquitto-broker/) for Windows
-..b) Use this [link](http://www.steves-internet-guide.com/install-mosquitto-linux/) for Linux
+    a) Use this [link](http://www.steves-internet-guide.com/install-mosquitto-broker/) for Windows
+    b) Use this [link](http://www.steves-internet-guide.com/install-mosquitto-linux/) for Linux
 2. Make sure it is installed correctly by running ```mosquitto -h``` in your mosquitto folder
-..a) Another way to check is by running ```netstat -na``` and looking for a listener on port 1883 (unless you changed it from the default in your configuration file)
+    a) Another way to check is by running ```netstat -na``` and looking for a listener on port 1883 (unless you changed it from the default in your configuration file)
 
 ![alt text](images/mosquitto-h.PNG "Testing Whether Mosquitto is Installed Properly")
 
@@ -53,7 +59,7 @@ Configure your Mosquitto MQTT broker with username and password [here](http://ww
 ![alt text](images/mqtt-out.PNG "MQTT Subscribe Flow")
 
 3. Configure your MQTT nodes by making sure that they have the ```same topic``` and are on the ```same server```
-..a) If you set up a username and password, make sure you enter that information into the security tab when you edit the MQTT server
+    a) If you set up a username and password, make sure you enter that information into the security tab when you edit the MQTT server
 
 4. You should be able to see the timestamp in your debug window if you press on the inject node
 
