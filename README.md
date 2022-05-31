@@ -7,7 +7,7 @@ These instructions will take you through setting up a Node-RED dashboard.
 __In this lab you will__
 1. Set Up the MQTT Data Flow
 2. Format the Data
-3. Create a basic Dashboard
+3. Create a Basic Dashboard
 
 __You will need:__
 * Node.js
@@ -78,3 +78,7 @@ Attach a text node and make a new dashboard group and tab to contain it. After c
 Your Node-RED flow should look like this
 
 ![alt text](images/final-flow.PNG "Final Node-RED Flow")
+
+## Conclusion
+
+In this lab, you learned how to set up and install Node-RED and Mosquitto (an MQTT broker). You formatted data from the MQTT data stream and created a basic dashboard for people to view.
