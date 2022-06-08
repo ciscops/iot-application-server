@@ -88,3 +88,11 @@ Your Node-RED flow should look like this
 ## Conclusion
 
 In this lab, you learned how to set up and install Node-RED and Mosquitto (an MQTT broker). You formatted data from the MQTT data stream and created a basic dashboard for people to view.
+
+## Next Steps
+
+Check out some extensions to this basic app server
+
+* Improve your UI using our [grafana documentation](https://github.com/ciscops/grafana-dashboard)
+* Set up email or webex alerts with our [node red alert documentation](https://github.com/ciscops/node-red-alerts)
+* Integrate your location data with TAK clients through our [node red TAK documentation](https://github.com/ciscops/node-red-tak)
