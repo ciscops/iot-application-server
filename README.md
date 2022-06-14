@@ -34,6 +34,10 @@ __You will need:__
 1. Check whether you installed it correctly by running ```node-red``` in your terminal
 2. Navigate to http://localhost:1880/ which should automatically direct you to your flow (unless you changed the port number in configuration)
 
+### Security
+
+Follow [this tutorial](https://stevesnoderedguide.com/securing-node-red-ssl) on setting up a username and password to secure your Node-RED flows.
+
 ## MQTT Set Up
 
 ### Moquitto Installation
