@@ -47,20 +47,27 @@ Follow [this tutorial](https://stevesnoderedguide.com/securing-node-red-ssl) on 
 2. Make sure it is installed correctly by running ```mosquitto -h``` in your mosquitto folder
     1. Another way to check is by running ```netstat -na``` and looking for a listener on port 1883 (unless you changed it from the default in your configuration file)
 
-![alt text](images/mosquitto-h.PNG "Testing Whether Mosquitto is Installed Properly")
+![alt text](images/mosquitto-h.PNG "Testing Whether Mosquitto is Installed Properly" | width=100)
 
 ### Mosquitto Configuration
 
 Configure your Mosquitto MQTT broker with username and password [here](http://www.steves-internet-guide.com/mqtt-username-password-example/)
 
+### Mosquitto Validation
+
+Validate and troubleshoot Mosquitto connectivity and authenication issues [here](http://mqtt-explorer.com/)
+
 ## Setting Up Your Node-RED Flow
 1. Set up your publishing flow like this
 
 ![alt text](images/mqtt-in.PNG "MQTT Publish Flow")
+![alt text](images/mqtt-out-node.PNG "MQTT Out Node")
+![alt text](images/mqtt-broker.PNG "MQTT Broker Server Node")
 
 2. Set up your subscribing flow like this
 
 ![alt text](images/mqtt-out.PNG "MQTT Subscribe Flow")
+![alt text](images/mqtt-in-node.PNG "MQTT In Node")
 
 3. Configure your MQTT nodes by making sure that they have the ```same topic``` and are on the ```same server```
     1. If you set up a username and password, make sure you enter that information into the security tab when you edit the MQTT server
