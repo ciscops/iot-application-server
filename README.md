@@ -47,7 +47,7 @@ Follow [this tutorial](https://stevesnoderedguide.com/securing-node-red-ssl) on 
 2. Make sure it is installed correctly by running ```mosquitto -h``` in your mosquitto folder
     1. Another way to check is by running ```netstat -na``` and looking for a listener on port 1883 (unless you changed it from the default in your configuration file)
 
-<img src="images/mosquitto-h.PNG" width="100">
+<img src="images/mosquitto-h.PNG" width="300">
 
 ### Mosquitto Configuration
 
@@ -61,13 +61,13 @@ Validate and troubleshoot Mosquitto connectivity and authenication issues [here]
 1. Set up your publishing flow like this
 
 ![alt text](images/mqtt-in.PNG "MQTT Publish Flow")
-![alt text](images/mqtt-out-node.PNG "MQTT Out Node")
-![alt text](images/mqtt-broker.PNG "MQTT Broker Server Node")
+<img src="images/mqtt-out-node.PNG" width="300">
+<img src="images/mqtt-broker.PNG" width="300">
 
 2. Set up your subscribing flow like this
 
 ![alt text](images/mqtt-out.PNG "MQTT Subscribe Flow")
-![alt text](images/mqtt-in-node.PNG "MQTT In Node")
+<img src="images/mqtt-in-node.PNG" width="300">
 
 3. Configure your MQTT nodes by making sure that they have the ```same topic``` and are on the ```same server```
     1. If you set up a username and password, make sure you enter that information into the security tab when you edit the MQTT server
@@ -80,7 +80,7 @@ Validate and troubleshoot Mosquitto connectivity and authenication issues [here]
 
 Right now, our timestamp is in a number format, but we want to convert it into a Date. Here we use a function node to format our data.
 
-![alt text](images/function-node.PNG "Function Node Configuration")
+<img src="images/function-node.PNG" width="300">
 
 Your subscribing flow should look like this
 
