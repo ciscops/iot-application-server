@@ -47,7 +47,7 @@ Follow [this tutorial](https://stevesnoderedguide.com/securing-node-red-ssl) on 
 2. Make sure it is installed correctly by running ```mosquitto -h``` in your mosquitto folder
     1. Another way to check is by running ```netstat -na``` and looking for a listener on port 1883 (unless you changed it from the default in your configuration file)
 
-![alt text](images/mosquitto-h.PNG "Testing Whether Mosquitto is Installed Properly" | width=100)
+![alt text](images/mosquitto-h.PNG "Testing Whether Mosquitto is Installed Properly" width="200")
 
 ### Mosquitto Configuration
 
