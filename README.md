@@ -10,12 +10,15 @@ Our goal in this lab is to develop an application server that can be used for pr
 
 These instructions will take you through setting up a Node-RED dashboard.
 
+Note: Windows and Debian Linux were used to develop and validate this project. The same applications can be deployed on other Linux distributions, potentially, with some minor modifications.
+
 __In this lab you will__
 1. Set Up the MQTT Data Flow
 2. Format the Data
 3. Create a Basic Dashboard
 
 __You will need:__
+* Linux or Windows Host
 * Node.js
 * Node-RED
 * Mosquitto
