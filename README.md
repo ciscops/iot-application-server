@@ -4,4 +4,4 @@ Based in no small part on our customers need to support unique missions, Cisco p
  
 The StackWise architecture allows stacking of up to twelve switches in a ring topology to achieve 1T and 480G of stack bandwidth. The stacking architecture expands the form factor, switching capacity, port density, and redundancy. This architecture provides resiliency, scalability, and central management. This technology is flexible, modular, and evolutionary and is enabled in IOS-XE 17.11.99SW. Cisco: Transforming connectivity for enterprises demanding the best.
 
-![alt text](images/contract.PNG "Confirmation of 12 Member Stacking on Cisco Catalyst C9300X-48HXN Switches")
+![alt text](images/contract.png "Confirmation of 12 Member Stacking on Cisco Catalyst C9300X-48HXN Switches")
